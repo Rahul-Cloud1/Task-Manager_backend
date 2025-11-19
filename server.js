@@ -12,7 +12,7 @@ const PORT = process.env.PORT || 5000;
 const JWT_SECRET = process.env.JWT_SECRET || 'your_default_super_secret_key';
 
 app.use(cors({
-  origin: ['http://localhost:3000', 'http://localhost:5173'],
+  origin: ['http://localhost:3000', 'http://localhost:5173', 'https://task-manager-frontend-luwq.onrender.com'],
   methods: ['GET', 'POST', 'PUT', 'DELETE'],
 }));
 
